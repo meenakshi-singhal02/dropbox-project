@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="280330" started-at="2018-09-01T12:55:17Z" finished-at="2018-09-01T12:59:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="280330" started-at="2018-09-01T12:55:17Z" finished-at="2018-09-01T12:59:57Z">
+      <class name="dropbox.webtesting.testcases.DropBoxTestCases">
+        <test-method status="PASS" signature="mainSetup()[pri:0, instance:dropbox.webtesting.testcases.DropBoxTestCases@3967e60c]" name="mainSetup" is-config="true" duration-ms="887" started-at="2018-09-01T13:55:16Z" finished-at="2018-09-01T13:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSetup -->
+        <test-method status="PASS" signature="instantiaze(org.testng.ITestContext)[pri:0, instance:dropbox.webtesting.testcases.DropBoxTestCases@3967e60c]" name="instantiaze" is-config="true" duration-ms="3" started-at="2018-09-01T13:55:17Z" finished-at="2018-09-01T13:55:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7103ab0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiaze -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:dropbox.webtesting.testcases.DropBoxTestCases@3967e60c]" name="setup" is-config="true" duration-ms="22457" started-at="2018-09-01T13:55:17Z" finished-at="2018-09-01T13:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7103ab0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void dropbox.webtesting.testcases.DropBoxTestCases.verifySuccessfullyCreateFolderAndDeleted()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySuccessfullyCreateFolderAndDeleted()[pri:0, instance:dropbox.webtesting.testcases.DropBoxTestCases@3967e60c]" name="verifySuccessfullyCreateFolderAndDeleted" duration-ms="255228" started-at="2018-09-01T13:55:39Z" finished-at="2018-09-01T13:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullyCreateFolderAndDeleted -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:dropbox.webtesting.testcases.DropBoxTestCases@3967e60c]" name="tearDown" is-config="true" duration-ms="2589" started-at="2018-09-01T13:59:55Z" finished-at="2018-09-01T13:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7103ab0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void dropbox.webtesting.testcases.DropBoxTestCases.verifySuccessfullyCreateFolderAndDeleted()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropbox.webtesting.testcases.DropBoxTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
